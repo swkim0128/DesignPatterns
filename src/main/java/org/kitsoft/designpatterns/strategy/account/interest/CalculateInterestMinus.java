@@ -6,6 +6,14 @@ public class CalculateInterestMinus extends CalculateInterestAccount {
 	}
 	
 	public int calculateInterest() {
-		return 0;
+		double result = 0;
+		if(this.getBalance() < 0) {
+			result = this.getBalance() * 0.07;
+		}
+		else {
+			result = 0;
+		}
+		
+		return (int)result;
 	}
 }

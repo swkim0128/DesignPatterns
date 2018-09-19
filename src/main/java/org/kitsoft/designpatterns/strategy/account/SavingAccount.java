@@ -1,16 +1,18 @@
 package org.kitsoft.designpatterns.strategy.account;
 
-import java.util.Date;
+import java.util.Calendar;
 
-import org.kitsoft.designpatterns.strategy.account.interest.CalculateInterestNormal;
+import org.kitsoft.designpatterns.strategy.account.interest.CalculateInterestSaving;
 import org.kitsoft.designpatterns.strategy.account.withdraw.WithdrawSaving;
 
 public class SavingAccount extends Account {
-	private Date date;
-	
+	private Calendar expirationDate = Calendar.getInstance();
+		
 	public SavingAccount(int balance) {
 		super(balance);
-		setWithdrawStrategy(new WithdrawSaving(balance));
-		setCalculateInterestStrategy(new CalculateInterestNormal(balance));
+		expirationDate.set(2018, Calendar.SEPTEMBER, 20);
+
+		setWithdrawStrategy(new WithdrawSaving(balance, expirationDate));
+		setCalculateInterestStrategy(new CalculateInterestSaving(balance));
 	}
 }

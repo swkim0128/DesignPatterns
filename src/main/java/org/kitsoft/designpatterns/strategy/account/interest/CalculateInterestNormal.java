@@ -6,6 +6,7 @@ public class CalculateInterestNormal extends CalculateInterestAccount {
 	}
 	
 	public int calculateInterest() {
-		return 0;
+		double result = this.getBalance() * 0.03;
+		return (int)result;
 	}
 }
