@@ -12,7 +12,15 @@ public class SavingAccount extends Account {
 		super(balance);
 		expirationDate.set(2018, Calendar.SEPTEMBER, 20);
 
-		setWithdrawStrategy(new WithdrawSaving(balance, expirationDate));
-		setCalculateInterestStrategy(new CalculateInterestSaving(balance));
+		setWithdrawStrategy(new WithdrawSaving());
+		setCalculateInterestStrategy(new CalculateInterestSaving());
+	}
+	
+	public Calendar getExpirationDate() {
+		return expirationDate;
+	}
+	
+	public void setExpirationDate(int year, int month, int date) {
+		expirationDate.set(year, month - 1, date);
 	}
 }

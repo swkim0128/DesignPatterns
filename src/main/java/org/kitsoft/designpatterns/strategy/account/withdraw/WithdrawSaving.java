@@ -2,23 +2,20 @@ package org.kitsoft.designpatterns.strategy.account.withdraw;
 
 import java.util.Calendar;
 
-public class WithdrawSaving extends WithdrawAccount {
-	private Calendar expirationDate;
-	
-	public WithdrawSaving(int balance, Calendar expirationDate) {
-		super(balance);
-		this.expirationDate = expirationDate;
-	}
-	
-	public int withdraw(int balance) {
+import org.kitsoft.designpatterns.strategy.account.Account;
+import org.kitsoft.designpatterns.strategy.account.SavingAccount;
+
+public class WithdrawSaving implements WithdrawStrategy {
+	public int withdraw(Account account, int balance) {
+		SavingAccount saving = (SavingAccount)account;
 		Calendar current = Calendar.getInstance();
 		
-		if(current.compareTo(expirationDate) == 1) {
-			return this.getBalance() - balance;
+		if(current.compareTo(saving.getExpirationDate()) == 1) {
+			return account.getBalance() - balance;
 		}
 		else {
 			System.out.println("게약만료일 x");
-			return this.getBalance();
+			return account.getBalance();
 		}
 	}
 }

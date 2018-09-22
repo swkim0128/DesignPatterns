@@ -17,15 +17,18 @@ public abstract class Account {
 	}
 	
 	public void deposit(int balance) {
-		this.balance += balance;
+		if(balance > 0)
+			this.balance += balance;
+		else
+			System.out.println("No minus");
 	}
 
 	public void withdraw(int balance) {
-		this.balance = withdraw.withdraw(balance);
+		this.balance = withdraw.withdraw(this, balance);
 	}
 	
 	public int calculateInterest() {
-		return calculateInterest.calculateInterest();
+		return calculateInterest.calculateInterest(balance);
 	}
 	
 	public void setWithdrawStrategy(WithdrawStrategy ws) {

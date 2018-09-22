@@ -8,7 +8,11 @@ public class MinusAccount extends Account {
 	
 	public MinusAccount(int balance) {
 		super(balance);
-		setWithdrawStrategy(new WithdrawMinus(balance, creditLimit));
-		setCalculateInterestStrategy(new CalculateInterestMinus(balance));
+		setWithdrawStrategy(new WithdrawMinus());
+		setCalculateInterestStrategy(new CalculateInterestMinus());
+	}
+	
+	public int getCreditLimit() {
+		return creditLimit;
 	}
 }

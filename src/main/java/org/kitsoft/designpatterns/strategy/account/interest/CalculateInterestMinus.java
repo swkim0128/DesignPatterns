@@ -1,14 +1,10 @@
 package org.kitsoft.designpatterns.strategy.account.interest;
 
-public class CalculateInterestMinus extends CalculateInterestAccount {
-	public CalculateInterestMinus(int balance) {
-		super(balance);
-	}
-	
-	public int calculateInterest() {
+public class CalculateInterestMinus implements CalculateInterestStrategy {	
+	public int calculateInterest(int balance) {
 		double result = 0;
-		if(this.getBalance() < 0) {
-			result = this.getBalance() * 0.07;
+		if(balance < 0) {
+			result = balance * 0.07;
 		}
 		else {
 			result = 0;
