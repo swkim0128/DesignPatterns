@@ -5,11 +5,6 @@ import java.util.Observable;
 public class WeatherDataPull extends Observable {
 	private float degree, humidity, pressure, windSpeed;
 	
-	public void measurementsChanged() {
-		setChanged();
-		notifyObservers();
-	}
-	
 	public void setMeasurements(float d, float h, float p, float w) {
 		degree = d;
 		humidity = h;
@@ -17,6 +12,11 @@ public class WeatherDataPull extends Observable {
 		windSpeed = w;
 		
 		measurementsChanged();
+	}
+	
+	public void measurementsChanged() {
+		setChanged();
+		notifyObservers();
 	}
 	
 	public float getDegree() {

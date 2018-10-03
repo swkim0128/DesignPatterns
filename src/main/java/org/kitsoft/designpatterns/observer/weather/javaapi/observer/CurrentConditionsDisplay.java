@@ -6,6 +6,7 @@ import java.util.Observer;
 import org.kitsoft.designpatterns.observer.weather.javaapi.observable.WeatherData;
 
 public class CurrentConditionsDisplay implements Observer {
+	@SuppressWarnings("unused")
 	private Observable observable;
 	private float degree, humidity;
 	

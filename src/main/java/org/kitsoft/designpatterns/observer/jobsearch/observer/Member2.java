@@ -3,12 +3,14 @@ package org.kitsoft.designpatterns.observer.jobsearch.observer;
 import org.kitsoft.designpatterns.observer.jobsearch.JobSearch;
 
 public class Member2 implements MemberObserver, DisplayElementImp {
-	private JobSearch jobSearch;
 	private String company;
 	private int salary;
 	private int career;
 	private String employmentType;
 	
+	@SuppressWarnings("unused")
+	private JobSearch jobSearch;
+
 	public Member2(JobSearch jobSearch) {
 		this.jobSearch = jobSearch;
 		jobSearch.addObserver(this);

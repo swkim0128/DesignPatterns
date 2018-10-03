@@ -23,12 +23,6 @@ public class JobSearchData implements JobSearch {
 		observers.remove(o);
 	}
 	
-	public void notifyObservers() {
-		for(MemberObserver o : observers) {
-			o.update(company, employmentType, salary, career);
-		}
-	}
-	
 	public void setMeasurements(String company, String e, int s, int career) {
 		this.company = company;
 		employmentType = e;
@@ -40,5 +34,11 @@ public class JobSearchData implements JobSearch {
 	
 	public void measurementsChanged() {
 		notifyObservers();
+	}
+	
+	public void notifyObservers() {
+		for(MemberObserver o : observers) {
+			o.update(company, employmentType, salary, career);
+		}
 	}
 }

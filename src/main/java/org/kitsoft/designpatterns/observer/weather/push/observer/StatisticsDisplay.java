@@ -3,7 +3,9 @@ package org.kitsoft.designpatterns.observer.weather.push.observer;
 import org.kitsoft.designpatterns.observer.weather.push.subject.Subject;
 
 public class StatisticsDisplay implements Observer, DisplayElementImp {
-	float degree, humidity, pressures, windSpeed;
+	private float degree, humidity, pressures, windSpeed;
+	
+	@SuppressWarnings("unused")
 	private Subject weatherData;
 	
 	public StatisticsDisplay(Subject weatherData) {

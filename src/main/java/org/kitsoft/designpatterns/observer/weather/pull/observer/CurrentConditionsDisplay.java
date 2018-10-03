@@ -5,6 +5,8 @@ import org.kitsoft.designpatterns.observer.weather.pull.subject.WeatherData;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElementImp {
 	private float degree, humidity, pressures, windSpeed;
+	
+	@SuppressWarnings("unused") 
 	private Subject weatherData;
 	
 	public CurrentConditionsDisplay(Subject weatherData) {

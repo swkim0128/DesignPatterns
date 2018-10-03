@@ -20,11 +20,6 @@ public class WeatherData implements Subject {
 		observers.remove(o);
 	}
 	
-	public void notifyObservers() {
-		for(Observer o : observers)
-			o.update(degree, humidity, pressures, windSpeed);
-	}
-	
 	public void setMeasurements(float d, float h, float p, float w) {
 		degree = d;
 		humidity = h;
@@ -36,5 +31,10 @@ public class WeatherData implements Subject {
 	
 	public void measurementsChanged() {
 		notifyObservers();
+	}
+
+	public void notifyObservers() {
+		for(Observer o : observers)
+			o.update(degree, humidity, pressures, windSpeed);
 	}
 }

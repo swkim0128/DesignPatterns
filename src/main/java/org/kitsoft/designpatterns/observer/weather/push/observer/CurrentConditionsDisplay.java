@@ -4,18 +4,20 @@ import org.kitsoft.designpatterns.observer.weather.push.subject.Subject;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElementImp {
 	private float degree, humidity, pressures, windSpeed;
+
+	@SuppressWarnings("unused")
 	private Subject weatherData;
 	
 	public CurrentConditionsDisplay(Subject weatherData) {
 		this.weatherData = weatherData;
 		weatherData.registerObserver(this);
 	}
+	
 	public void update(float d, float h, float p, float w) {
 		degree = d;
 		humidity = h;
 		pressures = p;
 		windSpeed = w;
-		display();
 	}
 	
 	public void display() {

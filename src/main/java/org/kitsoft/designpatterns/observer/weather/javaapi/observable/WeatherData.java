@@ -5,11 +5,6 @@ import java.util.Observable;
 public class WeatherData extends Observable {	
 	private float degree, humidity, pressure, windSpeed;
 	
-	public void measurementsChanged() {
-		setChanged();
-		notifyObservers(this);
-	}
-	
 	public void setMeasurements(float d, float h, float p, float w) {
 		degree = d;
 		humidity = h;
@@ -17,6 +12,11 @@ public class WeatherData extends Observable {
 		windSpeed = w;
 		
 		measurementsChanged();
+	}
+	
+	public void measurementsChanged() {
+		setChanged();
+		notifyObservers(this);
 	}
 	
 	public float getDegree() {
