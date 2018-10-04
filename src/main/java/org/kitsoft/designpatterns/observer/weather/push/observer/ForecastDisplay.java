@@ -21,7 +21,25 @@ public class ForecastDisplay implements Observer, DisplayElementImp {
 	}
 	
 	public void display() {
-		System.out.println("Current conditions : " + degree
-				+ "F degree and " + humidity + "% humidity");
+		System.out.println("Forecast : " + degree
+				+ "F degree and " + humidity + "% humidity"
+				+ pressures + "atm " + windSpeed + "m/s");
 	}
+	
+	public float getDegree() {
+		return degree;
+	}
+	
+	public float getHumidity() {
+		return humidity;
+	}
+	
+	public float getPressures() {
+		return pressures;
+	}
+	
+	public float getWindSpeed() {
+		return windSpeed;
+	}
+
 }

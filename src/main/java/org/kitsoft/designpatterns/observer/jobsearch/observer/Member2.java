@@ -5,6 +5,8 @@ import org.kitsoft.designpatterns.observer.jobsearch.JobSearch;
 public class Member2 implements MemberObserver, DisplayElementImp {
 	private String company;
 	private int salary;
+
+	@SuppressWarnings("unused")
 	private int career;
 	private String employmentType;
 	
@@ -26,6 +28,6 @@ public class Member2 implements MemberObserver, DisplayElementImp {
 	}
 	
 	public void display() {
-		
+		System.out.println("company : " + company + ", employmentType : " + employmentType + ", salary : " + salary);
 	}
 }

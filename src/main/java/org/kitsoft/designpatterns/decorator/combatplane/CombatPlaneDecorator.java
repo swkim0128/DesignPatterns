@@ -7,7 +7,5 @@ public abstract class CombatPlaneDecorator implements CombatPlaneImp {
 		combatPlane = cp;
 	}
 	
-	public void attack() {
-		
-	}
+	public abstract void attack();
 }

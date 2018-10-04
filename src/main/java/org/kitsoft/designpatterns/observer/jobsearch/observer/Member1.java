@@ -6,6 +6,7 @@ public class Member1 implements MemberObserver, DisplayElementImp {
 	private String company;
 	private int salary;
 	private int career;
+	@SuppressWarnings("unused")
 	private String employmentType;
 
 	@SuppressWarnings("unused")
@@ -24,6 +25,6 @@ public class Member1 implements MemberObserver, DisplayElementImp {
 	}
 	
 	public void display() {
-		
+		System.out.println("company : " + company + ", salary : " + salary + ", career : " + career);
 	}
 }

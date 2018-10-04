@@ -24,4 +24,21 @@ public class CurrentConditionsDisplay implements Observer, DisplayElementImp {
 		System.out.println("Current conditions : " + degree
 				+ "F degree and " + humidity + "% humidity");
 	}
+	
+	public float getDegree() {
+		return degree;
+	}
+	
+	public float getHumidity() {
+		return humidity;
+	}
+	
+	public float getPressures() {
+		return pressures;
+	}
+	
+	public float getWindSpeed() {
+		return windSpeed;
+	}
+	
 }
