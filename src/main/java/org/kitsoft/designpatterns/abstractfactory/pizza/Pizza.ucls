@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="false" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.Pizza" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/Pizza.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1202" y="8"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.VeggiePizza" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/VeggiePizza.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="758" y="251"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.ChicagoPizzaStore" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/ChicagoPizzaStore.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="237" y="124"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.ClamPizza" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/ClamPizza.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1057" y="251"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.PepperoniPizza" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/PepperoniPizza.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1356" y="251"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.NYPizzaStore" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/NYPizzaStore.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="442" y="124"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.PizzaStore" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/PizzaStore.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="343" y="-8"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.CheesePizza" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/CheesePizza.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1655" y="251"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.PizzaTestDrive" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/PizzaTestDrive.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="841" y="-172"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Cheese" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Cheese.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="827" y="442"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" 
+    name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.ChicagoPizzaIngredientFactory" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ChicagoPizzaIngredientFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="192" y="709"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Sauce" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Sauce.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="987" y="442"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="13" language="java" 
+    name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.PizzaIngredientFactory" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/PizzaIngredientFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="353" y="493"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="14" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Clams" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Clams.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1147" y="442"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="15" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Veggies" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Veggies.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1298" y="445"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="16" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Dough" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Dough.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1458" y="445"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Pepperoni" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Pepperoni.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1596" y="446"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" 
+    name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.NYPizzaIngredientFactory" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/NYPizzaIngredientFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="486" y="710"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.MarinaraSauce" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/MarinaraSauce.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="987" y="590"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.BlackOlives" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/BlackOlives.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1296" y="589"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.FrozenClams" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/FrozenClams.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1144" y="588"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.ReggianoCheese" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ReggianoCheese.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="817" y="585"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.SlicedPepperoni" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/SlicedPepperoni.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1614" y="592"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Spinach" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Spinach.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1296" y="722"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" 
+    name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.MozzarellaCheese" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/MozzarellaCheese.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="825" y="721"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.FreshClams" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/FreshClams.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1149" y="727"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.PlumTomatoSauce" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/PlumTomatoSauce.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="989" y="728"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.ThickCrustDough" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ThickCrustDough.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1453" y="591"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Eggplant" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Eggplant.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1299" y="852"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Mushroom" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Mushroom.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1296" y="961"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Garlic" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Garlic.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1297" y="1081"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.Onion" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Onion.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1302" y="1188"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.ParmesanCheese" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ParmesanCheese.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="828" y="842"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.ThinCrustDough" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ThinCrustDough.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1447" y="723"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.abstractfactory.RedPepper" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/RedPepper.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1302" y="1295"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <realization id="37">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <dependency id="38">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <realization id="39">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="40">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="41">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="42" name="cheese"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <realization id="45">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="46">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <dependency id="47">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <realization id="48">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="50">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <realization id="52">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="53">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <association id="54">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="55" name="clam"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="58">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <generalization id="59">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <dependency id="60">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <realization id="61">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <association id="62">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="63" name="dough"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="66" name="ingredientFactory"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="68">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <association id="69">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="70" name="pepperoni"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="72">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="73">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="74" name="veggies"/>      
+      <multiplicity id="75" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="77" name="sauce"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="79">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <dependency id="80">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <realization id="81">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="82">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="83">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <realization id="84">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <generalization id="85">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="86">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="87" name="ingredientFactory"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="89">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <generalization id="90">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <dependency id="91">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="92">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="93">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <generalization id="94">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="95">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="96">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <association id="97">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="98" name="ingredientFactory"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="100">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="101">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <realization id="102">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <association id="103">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="104" name="ingredientFactory"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

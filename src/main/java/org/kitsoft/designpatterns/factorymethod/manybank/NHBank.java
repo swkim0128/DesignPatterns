@@ -1,17 +1,21 @@
 package org.kitsoft.designpatterns.factorymethod.manybank;
 
 public class NHBank extends Bank {
+	
 	Account create(String accountType) {
+		final String NHNORMAL = "농협보통계좌";
+		final String NHMINUS = "농협마이너스계좌";
+
 		Account account = null;
 		
-		if(accountType.equals("농협은행")) {
-			
-		}
-		else if(accountType.equals("신한은행")) {
-			
-		}
-		else if(accountType.equals("국민은행")) {
-			
+		switch(accountType) {
+			case NHNORMAL:
+				account = new NHNormalAccount();
+				break;
+			case NHMINUS:
+				account = new NHMinusAccount();
+				break;
+			default :
 		}
 		
 		return account; 	

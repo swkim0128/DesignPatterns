@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.PizzaTestDrive" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/PizzaTestDrive.java" 
+    binary="false" label="pizzaTestDrive" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="156" y="0"/>  
+  </object>  
+  <object id="2" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.PizzaStore" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/PizzaStore.java" 
+    binary="false" label="pizzaStore" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="156" y="0"/>  
+  </object>  
+  <object id="3" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.Pizza" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/Pizza.java" 
+    binary="false" label="pizza" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="156" y="0"/>  
+  </object>  
+  <object id="4" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.NYPizzaStore" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/NYPizzaStore.java" 
+    binary="false" label="nyPizzaStore" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="156" y="0"/>  
+  </object>  
+  <object id="5" language="java" name="org.kitsoft.designpatterns.abstractfactory.pizza.factorymethod.CheesePizza" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/CheesePizza.java" 
+    binary="false" label="cheesePizza" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="156" y="0"/>  
+  </object>
+</sequence-diagram>
