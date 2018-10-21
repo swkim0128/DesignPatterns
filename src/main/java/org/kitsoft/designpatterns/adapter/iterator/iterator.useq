@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="org.kitsoft.designpatterns.adapter.iterator.EnumerationIteratorTestDrive" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/adapter/iterator/EnumerationIteratorTestDrive.java" 
+    binary="false" label="enumerationIteratorTestDrive1" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="438" width="0" x="0" y="128"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="366" width="0" x="0" y="176"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="java.util.Vector" project="designpatterns" 
+    file="F:/Develop/JAVA/Java/jre1.8.0_181/lib/rt.jar" binary="true" label="v" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="24" width="0" x="0" y="212"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="24" width="0" x="0" y="356"/>    
+    </execution>  
+  </object>  
+  <object id="18" language="java" name="java.util.Arrays" project="designpatterns" 
+    file="F:/Develop/JAVA/Java/jre1.8.0_181/lib/rt.jar" binary="true" label="&lt;static&gt;" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="24" width="0" x="0" y="260"/>    
+    </execution>  
+  </object>  
+  <object id="19" language="java" name="org.kitsoft.designpatterns.adapter.iterator.EnumerationIterator" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/adapter/iterator/EnumerationIterator.java" 
+    binary="false" label="iterator" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="24" width="0" x="0" y="308"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="24" width="0" x="0" y="446"/>    
+    </execution>  
+  </object>  
+  <object id="20" language="java" name="java.io.PrintStream" project="designpatterns" 
+    file="F:/Develop/JAVA/Java/jre1.8.0_181/lib/rt.jar" binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="16">      
+      <position height="24" width="0" x="0" y="494"/>    
+    </execution>  
+  </object>  
+  <combined-fragment id="21" interaction-operator="LOOP">    
+    <interaction-operand id="22" constraint="while: iterator.hasNext()">      
+      <fragment refId="15"/>      
+      <fragment refId="13"/>    
+    </interaction-operand>  
+  </combined-fragment>  
+  <message id="3" operation="main(java.lang.String[]):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="Vector(java.util.Collection&lt;? extends E&gt;)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="asList(T[]):java.util.List&lt;T&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="EnumerationIterator(java.util.Enumeration)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="elements():java.util.Enumeration&lt;E&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="next():E" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="println(java.lang.Object):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>
+</sequence-diagram>

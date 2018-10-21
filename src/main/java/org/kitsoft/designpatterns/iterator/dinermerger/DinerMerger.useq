@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="org.kitsoft.designpatterns.iterator.dinermerger.MenuTestDrive" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/iterator/dinermerger/MenuTestDrive.java" 
+    binary="false" label="menuTestDrive" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="143" y="0"/>    
+    <execution id="2">      
+      <position height="1404" width="0" x="0" y="105"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="1332" width="0" x="0" y="153"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="org.kitsoft.designpatterns.iterator.dinermerger.PancakeHouseMenu" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/iterator/dinermerger/PancakeHouseMenu.java" 
+    binary="false" label="pancakeHouseMenu" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="432" width="0" x="0" y="189"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="132" width="0" x="0" y="285"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="24" width="0" x="0" y="453"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="24" width="0" x="0" y="513"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="24" width="0" x="0" y="573"/>    
+    </execution>  
+  </object>  
+  <object id="28" language="java" name="org.kitsoft.designpatterns.iterator.dinermerger.MenuItem" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/iterator/dinermerger/MenuItem.java" binary="false" 
+    label="menuItem" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="25">      
+      <position height="24" width="0" x="0" y="321"/>    
+    </execution>  
+  </object>  
+  <object id="29" language="java" name="java.util.ArrayList" project="designpatterns" 
+    file="F:/Develop/JAVA/Java/jre1.8.0_181/lib/rt.jar" binary="true" label="menuItems" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="15">      
+      <position height="24" width="0" x="0" y="213"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="24" width="0" x="0" y="369"/>    
+    </execution>  
+  </object>  
+  <object id="30" language="java" name="org.kitsoft.designpatterns.iterator.dinermerger.DinerMenu" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/iterator/dinermerger/DinerMenu.java" binary="false" 
+    label="dinerMenu" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="396" width="0" x="0" y="645"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="24" width="0" x="0" y="693"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="24" width="0" x="0" y="753"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="24" width="0" x="0" y="813"/>    
+    </execution>    
+    <execution id="38">      
+      <position height="24" width="0" x="0" y="873"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="24" width="0" x="0" y="933"/>    
+    </execution>    
+    <execution id="42">      
+      <position height="24" width="0" x="0" y="993"/>    
+    </execution>  
+  </object>  
+  <object id="43" language="java" name="org.kitsoft.designpatterns.iterator.dinermerger.Waitress" 
+    project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/iterator/dinermerger/Waitress.java" binary="false" 
+    label="waitress" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="24" width="0" x="0" y="1065"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="348" width="0" x="0" y="1113"/>    
+    </execution>    
+    <execution id="51">      
+      <position height="24" width="0" x="0" y="1305"/>    
+    </execution>    
+    <execution id="55">      
+      <position height="24" width="0" x="0" y="1413"/>    
+    </execution>  
+  </object>  
+  <object id="56" language="java" name="org.kitsoft.designpatterns.iterator.dinermerger.Menu" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/iterator/dinermerger/Menu.java" binary="false" 
+    label="pancakeHouseMenu1" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="45">      
+      <position height="24" width="0" x="0" y="1137"/>    
+    </execution>  
+  </object>  
+  <object id="57" language="java" name="org.kitsoft.designpatterns.iterator.dinermerger.Menu" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/iterator/dinermerger/Menu.java" binary="false" 
+    label="dinerMenu1" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="47">      
+      <position height="24" width="0" x="0" y="1185"/>    
+    </execution>  
+  </object>  
+  <object id="58" language="java" name="java.io.PrintStream" project="designpatterns" 
+    file="F:/Develop/JAVA/Java/jre1.8.0_181/lib/rt.jar" binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="49">      
+      <position height="24" width="0" x="0" y="1233"/>    
+    </execution>  
+  </object>  
+  <object id="59" language="java" name="java.io.PrintStream" project="designpatterns" 
+    file="F:/Develop/JAVA/Java/jre1.8.0_181/lib/rt.jar" binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="53">      
+      <position height="24" width="0" x="0" y="1341"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="main(java.lang.String[]):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="PancakeHouseMenu()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="DinerMenu()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" 
+    operation="Waitress(org.kitsoft.designpatterns.iterator.dinermerger.Menu,org.kitsoft.designpatterns.iterator.dinermerger.Menu)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="printMenu():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="14" operation="ArrayList()" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="addItem(java.lang.String,java.lang.String,boolean,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="addItem(java.lang.String,java.lang.String,boolean,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="addItem(java.lang.String,java.lang.String,boolean,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="addItem(java.lang.String,java.lang.String,boolean,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="MenuItem(java.lang.String,java.lang.String,boolean,double)" asynchronous="false">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="add(E):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="31" operation="addItem(java.lang.String,java.lang.String,boolean,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="33" operation="addItem(java.lang.String,java.lang.String,boolean,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" operation="addItem(java.lang.String,java.lang.String,boolean,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="37" operation="addItem(java.lang.String,java.lang.String,boolean,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="39" operation="addItem(java.lang.String,java.lang.String,boolean,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" operation="addItem(java.lang.String,java.lang.String,boolean,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="44" operation="createIterator():org.kitsoft.designpatterns.iterator.dinermerger.iterator.Iterator" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="45"/>  
+  </message>  
+  <message id="46" operation="createIterator():org.kitsoft.designpatterns.iterator.dinermerger.iterator.Iterator" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="47"/>  
+  </message>  
+  <message id="48" operation="println(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="49"/>  
+  </message>  
+  <message id="50" operation="printMenu(org.kitsoft.designpatterns.iterator.dinermerger.iterator.Iterator):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="51"/>  
+  </message>  
+  <message id="52" operation="println(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="53"/>  
+  </message>  
+  <message id="54" operation="printMenu(org.kitsoft.designpatterns.iterator.dinermerger.iterator.Iterator):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="55"/>  
+  </message>
+</sequence-diagram>
