@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuTestDrive" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuTestDrive.java" binary="false" 
+    label="menuTestDrive" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="2604" width="0" x="0" y="101"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="2532" width="0" x="0" y="149"/>    
+    </execution>  
+  </object>  
+  <object id="107" language="java" name="org.kitsoft.designpatterns.composite.menu.Menu" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/Menu.java" binary="false" 
+    label="pancakeHouseMenu" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="24" width="0" x="0" y="185"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="24" width="0" x="0" y="665"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="24" width="0" x="0" y="761"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="24" width="0" x="0" y="857"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="24" width="0" x="0" y="953"/>    
+    </execution>  
+  </object>  
+  <object id="108" language="java" name="org.kitsoft.designpatterns.composite.menu.Menu" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/Menu.java" binary="false" 
+    label="dinerMenu" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="24" width="0" x="0" y="233"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="24" width="0" x="0" y="1049"/>    
+    </execution>    
+    <execution id="44">      
+      <position height="24" width="0" x="0" y="1145"/>    
+    </execution>    
+    <execution id="48">      
+      <position height="24" width="0" x="0" y="1241"/>    
+    </execution>    
+    <execution id="52">      
+      <position height="24" width="0" x="0" y="1337"/>    
+    </execution>    
+    <execution id="56">      
+      <position height="24" width="0" x="0" y="1433"/>    
+    </execution>    
+    <execution id="60">      
+      <position height="24" width="0" x="0" y="1529"/>    
+    </execution>    
+    <execution id="64">      
+      <position height="24" width="0" x="0" y="1625"/>    
+    </execution>  
+  </object>  
+  <object id="109" language="java" name="org.kitsoft.designpatterns.composite.menu.Menu" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/Menu.java" binary="false" 
+    label="cafeMenu" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="24" width="0" x="0" y="281"/>    
+    </execution>    
+    <execution id="78">      
+      <position height="24" width="0" x="0" y="1961"/>    
+    </execution>    
+    <execution id="82">      
+      <position height="24" width="0" x="0" y="2057"/>    
+    </execution>    
+    <execution id="86">      
+      <position height="24" width="0" x="0" y="2153"/>    
+    </execution>    
+    <execution id="90">      
+      <position height="24" width="0" x="0" y="2249"/>    
+    </execution>  
+  </object>  
+  <object id="110" language="java" name="org.kitsoft.designpatterns.composite.menu.Menu" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/Menu.java" binary="false" 
+    label="dessertMenu" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="12">      
+      <position height="24" width="0" x="0" y="329"/>    
+    </execution>    
+    <execution id="66">      
+      <position height="24" width="0" x="0" y="1673"/>    
+    </execution>    
+    <execution id="70">      
+      <position height="24" width="0" x="0" y="1769"/>    
+    </execution>    
+    <execution id="74">      
+      <position height="24" width="0" x="0" y="1865"/>    
+    </execution>  
+  </object>  
+  <object id="111" language="java" name="org.kitsoft.designpatterns.composite.menu.Menu" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/Menu.java" binary="false" 
+    label="coffeeMenu" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="14">      
+      <position height="24" width="0" x="0" y="377"/>    
+    </execution>    
+    <execution id="92">      
+      <position height="24" width="0" x="0" y="2297"/>    
+    </execution>    
+    <execution id="96">      
+      <position height="24" width="0" x="0" y="2393"/>    
+    </execution>    
+    <execution id="100">      
+      <position height="24" width="0" x="0" y="2489"/>    
+    </execution>  
+  </object>  
+  <object id="112" language="java" name="org.kitsoft.designpatterns.composite.menu.Menu" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/Menu.java" binary="false" 
+    label="allMenus" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="16">      
+      <position height="24" width="0" x="0" y="425"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="72" width="0" x="0" y="473"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="24" width="0" x="0" y="569"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="24" width="0" x="0" y="617"/>    
+    </execution>  
+  </object>  
+  <object id="115" language="java" name="java.util.ArrayList" project="designpatterns" 
+    file="F:/Develop/JAVA/Java/jre1.8.0_181/lib/rt.jar" binary="true" label="menuComponents" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="114">      
+      <position height="24" width="0" x="0" y="497"/>    
+    </execution>  
+  </object>  
+  <object id="116" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="26">      
+      <position height="24" width="0" x="0" y="713"/>    
+    </execution>  
+  </object>  
+  <object id="117" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="30">      
+      <position height="24" width="0" x="0" y="809"/>    
+    </execution>  
+  </object>  
+  <object id="118" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="34">      
+      <position height="24" width="0" x="0" y="905"/>    
+    </execution>  
+  </object>  
+  <object id="119" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="38">      
+      <position height="24" width="0" x="0" y="1001"/>    
+    </execution>  
+  </object>  
+  <object id="120" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="42">      
+      <position height="24" width="0" x="0" y="1097"/>    
+    </execution>  
+  </object>  
+  <object id="121" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="46">      
+      <position height="24" width="0" x="0" y="1193"/>    
+    </execution>  
+  </object>  
+  <object id="122" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="50">      
+      <position height="24" width="0" x="0" y="1289"/>    
+    </execution>  
+  </object>  
+  <object id="123" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="54">      
+      <position height="24" width="0" x="0" y="1385"/>    
+    </execution>  
+  </object>  
+  <object id="124" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="58">      
+      <position height="24" width="0" x="0" y="1481"/>    
+    </execution>  
+  </object>  
+  <object id="125" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="62">      
+      <position height="24" width="0" x="0" y="1577"/>    
+    </execution>  
+  </object>  
+  <object id="126" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="68">      
+      <position height="24" width="0" x="0" y="1721"/>    
+    </execution>  
+  </object>  
+  <object id="127" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="72">      
+      <position height="24" width="0" x="0" y="1817"/>    
+    </execution>  
+  </object>  
+  <object id="128" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="76">      
+      <position height="24" width="0" x="0" y="1913"/>    
+    </execution>  
+  </object>  
+  <object id="129" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="80">      
+      <position height="24" width="0" x="0" y="2009"/>    
+    </execution>  
+  </object>  
+  <object id="130" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="84">      
+      <position height="24" width="0" x="0" y="2105"/>    
+    </execution>  
+  </object>  
+  <object id="131" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="88">      
+      <position height="24" width="0" x="0" y="2201"/>    
+    </execution>  
+  </object>  
+  <object id="132" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="94">      
+      <position height="24" width="0" x="0" y="2345"/>    
+    </execution>  
+  </object>  
+  <object id="133" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="98">      
+      <position height="24" width="0" x="0" y="2441"/>    
+    </execution>  
+  </object>  
+  <object id="134" language="java" name="org.kitsoft.designpatterns.composite.menu.MenuItem" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuItem.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="102">      
+      <position height="24" width="0" x="0" y="2537"/>    
+    </execution>  
+  </object>  
+  <object id="135" language="java" name="org.kitsoft.designpatterns.composite.menu.Waitress" project="designpatterns" 
+    file="/designpatterns/src/main/java/org/kitsoft/designpatterns/composite/menu/Waitress.java" binary="false" 
+    label="waitress" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="104">      
+      <position height="24" width="0" x="0" y="2585"/>    
+    </execution>    
+    <execution id="106">      
+      <position height="24" width="0" x="0" y="2633"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="main(java.lang.String[]):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="Menu(java.lang.String,java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="Menu(java.lang.String,java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="Menu(java.lang.String,java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="Menu(java.lang.String,java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="Menu(java.lang.String,java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="Menu(java.lang.String,java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="29" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="31" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="33" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="37" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="39" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="47" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="48"/>  
+  </message>  
+  <message id="49" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="50"/>  
+  </message>  
+  <message id="51" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>  
+  <message id="53" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="54"/>  
+  </message>  
+  <message id="55" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="56"/>  
+  </message>  
+  <message id="57" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>  
+  <message id="59" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="60"/>  
+  </message>  
+  <message id="61" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="62"/>  
+  </message>  
+  <message id="63" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="65" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="66"/>  
+  </message>  
+  <message id="67" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="68"/>  
+  </message>  
+  <message id="69" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>  
+  <message id="71" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="72"/>  
+  </message>  
+  <message id="73" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="74"/>  
+  </message>  
+  <message id="75" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="76"/>  
+  </message>  
+  <message id="77" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="78"/>  
+  </message>  
+  <message id="79" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="80"/>  
+  </message>  
+  <message id="81" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="82"/>  
+  </message>  
+  <message id="83" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="84"/>  
+  </message>  
+  <message id="85" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="86"/>  
+  </message>  
+  <message id="87" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="88"/>  
+  </message>  
+  <message id="89" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="90"/>  
+  </message>  
+  <message id="91" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="92"/>  
+  </message>  
+  <message id="93" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="94"/>  
+  </message>  
+  <message id="95" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="96"/>  
+  </message>  
+  <message id="97" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="98"/>  
+  </message>  
+  <message id="99" operation="add(org.kitsoft.designpatterns.composite.menu.MenuComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="100"/>  
+  </message>  
+  <message id="101" operation="MenuItem(java.lang.String,java.lang.String,double)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="102"/>  
+  </message>  
+  <message id="103" operation="Waitress(org.kitsoft.designpatterns.composite.menu.MenuComponent)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="104"/>  
+  </message>  
+  <message id="105" operation="printMenu():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="106"/>  
+  </message>  
+  <message id="113" operation="add(E):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="114"/>  
+  </message>
+</sequence-diagram>
