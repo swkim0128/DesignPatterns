@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a745ad30-4ce0-41c3-8990-2aae614c9195" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kitsoft/designpatterns/decorator/car/CarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kitsoft/designpatterns/decorator/coffee/BeverageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kitsoft/designpatterns/decorator/coffeerevised/BeverageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kitsoft/designpatterns/decorator/combatplane/CombatPlaneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kitsoft/designpatterns/observer/weather/push/subject/WeatherDataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kitsoft/designpatterns/strategy/account/MinusAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kitsoft/designpatterns/strategy/account/NormalAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kitsoft/designpatterns/strategy/account/SavingAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/org.kitsoft/DesignPatterns/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/org.kitsoft/DesignPatterns/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/org.kitsoft/DesignPatterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/org.kitsoft/DesignPatterns/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/GUIFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/GUIFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/OSXButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/OSXButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/OSXFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/OSXFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/WinButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/WinButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/WinFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/gui/WinFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/PizzaTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/PizzaTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/BlackOlives.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/BlackOlives.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Cheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Cheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ChicagoPizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ChicagoPizzaIngredientFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Clams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Clams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Dough.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Dough.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Eggplant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Eggplant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/FreshClams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/FreshClams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/FrozenClams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/FrozenClams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Garlic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Garlic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/MarinaraSauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/MarinaraSauce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/MozzarellaCheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/MozzarellaCheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Mushroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Mushroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/NYPizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/NYPizzaIngredientFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Onion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Onion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ParmesanCheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ParmesanCheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Pepperoni.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Pepperoni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/PizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/PizzaIngredientFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/PlumTomatoSauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/PlumTomatoSauce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/RedPepper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/RedPepper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ReggianoCheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ReggianoCheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Sauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Sauce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/SlicedPepperoni.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/SlicedPepperoni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Spinach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Spinach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ThickCrustDough.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ThickCrustDough.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ThinCrustDough.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/ThinCrustDough.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Veggies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/abstractfactory/Veggies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/CheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/CheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/ChicagoPizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/ChicagoPizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/ClamPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/ClamPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/NYPizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/NYPizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/PepperoniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/PepperoniPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/PizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/VeggiePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/abstractfactory/pizza/factorymethod/VeggiePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/Duck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/DuckAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/DuckAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/DuckTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/DuckTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/MallardDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/MallardDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/Turkey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/Turkey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/TurkeyAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/TurkeyAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/TurkeyTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/TurkeyTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/WildTurkey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/ducks/WildTurkey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/iterator/EI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/iterator/EI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/iterator/EnumerationIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/iterator/EnumerationIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/iterator/EnumerationIteratorTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/iterator/EnumerationIteratorTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/iterator/IteratorEnumeration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/iterator/IteratorEnumeration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/iterator/IteratorEnumerationTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/adapter/iterator/IteratorEnumerationTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menu/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menu/MenuComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menu/MenuComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menu/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menu/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menu/MenuTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menu/MenuTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menu/Waitress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menu/Waitress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/CompositeIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/CompositeIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/MenuComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/MenuComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/MenuTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/MenuTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/NullIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/NullIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/Waitress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/composite/menuiterator/Waitress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/car/BackCameraOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/car/BackCameraOption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/car/BasicCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/car/BasicCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/car/BlackboxOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/car/BlackboxOption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/car/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/car/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/car/OptionDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/car/OptionDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/Beverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/CondimentDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/CondimentDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/DarkRoast.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/DarkRoast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/Espresso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/Milk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/Milk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/Mocha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/Mocha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/StarbuzzCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/StarbuzzCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/Whip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffee/Whip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffeerevised/Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffeerevised/Beverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffeerevised/CondimentDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffeerevised/CondimentDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffeerevised/HouseBlend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffeerevised/HouseBlend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffeerevised/Milk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/coffeerevised/Milk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/BackAttack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/BackAttack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/CombatPlane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/CombatPlane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/CombatPlaneDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/CombatPlaneDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/CombatPlaneImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/CombatPlaneImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/LeftSideAttack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/LeftSideAttack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/RightSideAttack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/combatplane/RightSideAttack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/DoubleBoundaryLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/DoubleBoundaryLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/HorizontalScrollBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/HorizontalScrollBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/SampleWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/SampleWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/SingleBoundaryLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/SingleBoundaryLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/VerticalScrollBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/VerticalScrollBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/WindowDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/decorator/window/WindowDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/AccountTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/AccountTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/KBBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/KBBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/KBMinusAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/KBMinusAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/KBNormalAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/KBNormalAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/KBSavingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/KBSavingAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/NHBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/NHBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/NHMinusAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/NHMinusAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/NHNormalAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/NHNormalAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/SHMinusAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/SHMinusAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/SHNormalAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/SHNormalAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/SHSavingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/SHSavingAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/SinhanBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/manybank/SinhanBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/ChicagoCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/ChicagoCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/ChicagoPotatoPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/ChicagoPotatoPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/ChicagoStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/ChicagoStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/ChicagoVegatablePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/ChicagoVegatablePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/NYCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/NYCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/NYPotatoPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/NYPotatoPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/NYStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/NYStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/NYVegatablePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/NYVegatablePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/PizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/PizzaTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/pizza/PizzaTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/AccountFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/AccountFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/BankTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/BankTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/MinusAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/MinusAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/NormalAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/NormalAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/SavingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/factorymethod/singlebank/SavingAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/DinerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/DinerMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/MenuTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/MenuTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/PancakeHouseMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/PancakeHouseMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/Waitress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/Waitress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/AlternatingDinerMenuIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/AlternatingDinerMenuIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/ArrayIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/ArrayIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/ArrayListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/ArrayListIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/DinerMenuIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/DinerMenuIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/Iterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/PancakeHouseMenuIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermerger/iterator/PancakeHouseMenuIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/AlternatingDinerMenuIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/AlternatingDinerMenuIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/CafeMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/CafeMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/DinerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/DinerMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/DinerMenuIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/DinerMenuIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/MenuTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/MenuTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/PancakeHouseMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/PancakeHouseMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/Waitress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/iterator/dinermergercafe/Waitress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/JobSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/JobSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/JobSearchData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/JobSearchData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/observer/DisplayElementImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/observer/DisplayElementImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/observer/Member1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/observer/Member1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/observer/Member2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/observer/Member2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/observer/MemberObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/jobsearch/observer/MemberObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/javaapi/observable/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/javaapi/observable/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/javaapi/observable/WeatherDataPull.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/javaapi/observable/WeatherDataPull.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/javaapi/observer/CurrentConditionsDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/javaapi/observer/CurrentConditionsDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/javaapi/observer/CurrentConditionsDisplayPull.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/javaapi/observer/CurrentConditionsDisplayPull.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/pull/observer/CurrentConditionsDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/pull/observer/CurrentConditionsDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/pull/observer/DisplayElementImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/pull/observer/DisplayElementImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/pull/observer/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/pull/observer/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/pull/subject/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/pull/subject/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/pull/subject/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/pull/subject/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/WeatherStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/WeatherStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/observer/CurrentConditionsDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/observer/CurrentConditionsDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/observer/DisplayElementImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/observer/DisplayElementImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/observer/ForecastDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/observer/ForecastDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/observer/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/observer/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/observer/StatisticsDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/observer/StatisticsDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/subject/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/subject/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/subject/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/observer/weather/push/subject/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/protection/MatchMakingTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/protection/MatchMakingTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/protection/NonOwnerInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/protection/NonOwnerInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/protection/OwnerInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/protection/OwnerInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/protection/PersonBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/protection/PersonBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/protection/PersonBeanImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/protection/PersonBeanImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/virtual/ImageComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/virtual/ImageComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/virtual/ImageProxy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/virtual/ImageProxy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/virtual/ImageProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/virtual/ImageProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/virtual/ImageProxyTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/proxy/virtual/ImageProxyTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolateeager/ChocolateBoiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolateeager/ChocolateBoiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolateeager/ChocolateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolateeager/ChocolateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolateeager/UserThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolateeager/UserThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolatelazy/ChocolateBoiler$Holder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolatelazy/ChocolateBoiler$Holder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolatelazy/ChocolateBoiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolatelazy/ChocolateBoiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolatelazy/ChocolateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolatelazy/ChocolateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolatelazy/UserThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/chocolatelazy/UserThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/dcl/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/dcl/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/dcl/SingletonClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/dcl/SingletonClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/dcl/UserThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/dcl/UserThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/fiveinstance/CoolerSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/fiveinstance/CoolerSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/fiveinstance/HotterSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/fiveinstance/HotterSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/fiveinstance/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/fiveinstance/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/fiveinstance/SingletonTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/fiveinstance/SingletonTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/fiveinstance/UserThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/fiveinstance/UserThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/stat/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/stat/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/stat/SingletonClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/stat/SingletonClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/stat/UserThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/stat/UserThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/subclass/CoolerSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/subclass/CoolerSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/subclass/HotterSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/subclass/HotterSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/subclass/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/subclass/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/subclass/SingletonTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/subclass/SingletonTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/subclass/UserThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/subclass/UserThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/threadsafe/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/threadsafe/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/threadsafe/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/threadsafe/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/threadsafe/UserThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/singleton/threadsafe/UserThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/GumballMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/GumballMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/GumballMachineTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/GumballMachineTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/HasQuarterState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/HasQuarterState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/NoQuarterState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/NoQuarterState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/SoldOutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/SoldOutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/SoldState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/SoldState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstate/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/GumballMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/GumballMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/GumballMachineTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/GumballMachineTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/HasQuarterState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/HasQuarterState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/NoQuarterState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/NoQuarterState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/SoldOutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/SoldOutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/SoldState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/SoldState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/WinnerState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/state/gumballstatewinner/WinnerState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/MinusAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/MinusAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/NormalAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/NormalAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/SavingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/SavingAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/interest/CalculateInterestMinus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/interest/CalculateInterestMinus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/interest/CalculateInterestNormal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/interest/CalculateInterestNormal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/interest/CalculateInterestSaving.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/interest/CalculateInterestSaving.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/interest/CalculateInterestStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/interest/CalculateInterestStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/withdraw/WithdrawMinus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/withdraw/WithdrawMinus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/withdraw/WithdrawNormal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/withdraw/WithdrawNormal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/withdraw/WithdrawSaving.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/withdraw/WithdrawSaving.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/withdraw/WithdrawStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/account/withdraw/WithdrawStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/Duck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/MallardDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/MallardDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/MiniDuckSimulator1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/MiniDuckSimulator1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/NomalDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/NomalDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/RubberDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/RubberDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/behavior/Behavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/behavior/Behavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/behavior/BehaviorNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/behavior/BehaviorNot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/behavior/BehaviorStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/strategy/duck/behavior/BehaviorStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/BeverageTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/BeverageTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/CaffeineBeverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/CaffeineBeverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/CaffeineBeverageWithHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/CaffeineBeverageWithHook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/Coffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/CoffeeWithHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/CoffeeWithHook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/Tea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/Tea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/TeaWithHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/barista/TeaWithHook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/simplebarista/Barista.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/simplebarista/Barista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/simplebarista/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/simplebarista/Coffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/simplebarista/Tea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kitsoft/designpatterns/templatemethod/simplebarista/Tea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kitsoft/designpatterns/decorator/car/CarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kitsoft/designpatterns/decorator/coffee/BeverageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kitsoft/designpatterns/decorator/coffeerevised/BeverageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kitsoft/designpatterns/decorator/combatplane/CombatPlaneTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kitsoft/designpatterns/observer/weather/push/subject/WeatherDataTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kitsoft/designpatterns/strategy/account/MinusAccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kitsoft/designpatterns/strategy/account/NormalAccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kitsoft/designpatterns/strategy/account/SavingAccountTest.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/kitsoft/designpatterns/mvc/onlinebanking/LoginForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/kitsoft/designpatterns/mvc/onlinebanking/LoginForm.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/kitsoft/designpatterns/mvc/onlinebanking/LoginForm.form" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="designpatterns" type="58d84e3e:PackageViewProjectNode" />
+              <item name="designpatterns" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="designpatterns" type="58d84e3e:PackageViewProjectNode" />
+              <item name="designpatterns" type="616d4139:PackageViewModuleNode" />
+              <item name="org.kitsoft.designpatterns" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="designpatterns" type="58d84e3e:PackageViewProjectNode" />
+              <item name="designpatterns" type="616d4139:PackageViewModuleNode" />
+              <item name="org.kitsoft.designpatterns" type="1f31426a:PackageElementNode" />
+              <item name="mvc.onlinebanking" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="designpatterns" type="58d84e3e:PackageViewProjectNode" />
+              <item name="designpatterns" type="616d4139:PackageViewModuleNode" />
+              <item name="org.kitsoft.designpatterns" type="1f31426a:PackageElementNode" />
+              <item name="mvc.onlinebanking" type="1f31426a:PackageElementNode" />
+              <item name="LoginForm" type="e9f4de52:FormNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="designpatterns" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="designpatterns" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543173338795" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="OnlineBanking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kitsoft.designpatterns.mvc.onlinebanking.OnlineBanking" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.kitsoft.designpatterns.mvc.onlinebanking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OnlineBanking" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a745ad30-4ce0-41c3-8990-2aae614c9195" name="Default Changelist" comment="" />
+      <created>1543170634125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543170634125</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kitsoft/designpatterns/decorator/coffeerevised/BeverageTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/kitsoft/designpatterns/composite/menu/MenuTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kitsoft/designpatterns/decorator/car/CarTest.java" />
+    <entry file="file://$PROJECT_DIR$/designpatterns.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/kitsoft/designpatterns/mvc/onlinebanking/OnlineBanking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/kitsoft/designpatterns/mvc/onlinebanking/LoginForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/kitsoft/designpatterns/mvc/onlinebanking/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>designpatterns</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
