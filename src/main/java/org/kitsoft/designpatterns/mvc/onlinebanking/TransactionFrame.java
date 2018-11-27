@@ -17,24 +17,9 @@ import javax.swing.UIManager;
 public class TransactionFrame extends JFrame {
 
 	private JPanel contentPane;
+	private MenuBar menu;
 	private TransactionPanel transactionPanel;
 	
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					TransactionFrame frame = new TransactionFrame();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
 	/**
 	 * Create the frame.
 	 */
@@ -47,8 +32,17 @@ public class TransactionFrame extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(new BoxLayout(contentPane, BoxLayout.Y_AXIS));
 		
+		menu = new MenuBar();
+		menu.setNowFrame(this);
+		this.setJMenuBar(menu);
+
 		transactionPanel = new TransactionPanel();
 		contentPane.add(transactionPanel);
 	}
 
+	public void backMoveAccountFrame() {
+		AccountSettingFrame accountSettingFrame = new AccountSettingFrame();
+		accountSettingFrame.setVisible(true);
+		this.setVisible(false);
+	}
 }

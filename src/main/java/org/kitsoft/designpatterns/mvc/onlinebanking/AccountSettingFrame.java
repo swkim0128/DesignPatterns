@@ -12,23 +12,9 @@ public class AccountSettingFrame extends JFrame {
 	private JPanel contentPane;
 	private MenuBar menu;
 	private AccountSelectPanel accountSelectPanel;
-	
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					AccountSettingFrame frame = new AccountSettingFrame();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 
+	private JPanel nowPanel;
+	
 	/**
 	 * Create the frame.
 	 */
@@ -41,11 +27,32 @@ public class AccountSettingFrame extends JFrame {
 		setContentPane(contentPane);
 		
 		menu = new MenuBar();
+		menu.setNowFrame(this);
+		menu.setEnabledBackMenuItem(false);
 		this.setJMenuBar(menu);
 		
 		accountSelectPanel = new AccountSelectPanel();
 		contentPane.add(accountSelectPanel, BorderLayout.CENTER);
 		accountSelectPanel.setSuperFrame(this);
+		
+		setNowPanel(accountSelectPanel);
 	}
 
+	public void backPanel() {
+		if(nowPanel instanceof AccountSelectedPanel) {
+			((AccountSelectedPanel) nowPanel).movePanel();
+		}
+	}
+	public void setNowPanel(JPanel panel) {
+		if(panel instanceof AccountSelectedPanel) {
+			menu.setEnabledBackMenuItem(true);
+		}
+		else if(panel instanceof AccountSelectPanel) {
+			menu.setEnabledBackMenuItem(false);
+		}
+		this.nowPanel = panel;
+	}
+	public JPanel getNowPanel() {
+		return nowPanel;
+	}
 }

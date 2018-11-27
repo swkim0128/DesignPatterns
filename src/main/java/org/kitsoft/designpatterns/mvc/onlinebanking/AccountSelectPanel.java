@@ -12,7 +12,7 @@ import java.awt.event.ActionEvent;
 
 public class AccountSelectPanel extends JPanel {
 	
-	private JFrame superFrame;
+	private AccountSettingFrame superFrame;
 	private AccountSelectedPanel accountSelectedPanel;
 	
 	/**
@@ -20,7 +20,6 @@ public class AccountSelectPanel extends JPanel {
 	 */
 	public AccountSelectPanel() {
 		setLayout(new BorderLayout(0, 0));
-		accountSelectedPanel = new AccountSelectedPanel();
 		
 		JPanel panel = new JPanel();
 		panel.setBorder(new EmptyBorder(80, 80, 80, 80));
@@ -39,11 +38,15 @@ public class AccountSelectPanel extends JPanel {
 		panel.add(accountCreateButton);
 	}
 	
-	public void setSuperFrame(JFrame superFrame) {
+	public void setSuperFrame(AccountSettingFrame superFrame) {
 		this.superFrame = superFrame;
 	}
 	
-	private void moveSelectedPanel() {
+	public void moveSelectedPanel() {
+		accountSelectedPanel = new AccountSelectedPanel();
+		accountSelectedPanel.setSuperFrame(superFrame);
+		
+		superFrame.setNowPanel(accountSelectedPanel);
 		superFrame.getContentPane().removeAll();
 		superFrame.getContentPane().add(accountSelectedPanel);
 		superFrame.revalidate();
