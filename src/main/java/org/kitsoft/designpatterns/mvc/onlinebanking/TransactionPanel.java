@@ -7,12 +7,15 @@ import javax.swing.JOptionPane;
 
 import java.awt.GridLayout;
 import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JFrame;
 import javax.swing.border.EmptyBorder;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class TransactionPanel extends JPanel {
-
+	private TransactionFrame superFrame;
+	
 	/**
 	 * Create the panel.
 	 */
@@ -49,6 +52,11 @@ public class TransactionPanel extends JPanel {
 		panel.add(withdrawButton);
 		
 		JButton transactionInquireButton = new JButton("거래내역조회");
+		transactionInquireButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				performedTransactionInquire();
+			}
+		});
 		transactionInquireButton.setFocusPainted(false);
 		transactionInquireButton.setContentAreaFilled(false);
 		panel.add(transactionInquireButton);
@@ -64,6 +72,11 @@ public class TransactionPanel extends JPanel {
 		panel.add(balanceInquireButton);
 		
 		JButton transferButton = new JButton("계좌이체");
+		transferButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				performedTransfer();
+			}
+		});
 		transferButton.setFocusPainted(false);
 		transferButton.setContentAreaFilled(false);
 		panel.add(transferButton);
@@ -78,5 +91,27 @@ public class TransactionPanel extends JPanel {
 	private void withdrawButtonAction() {
 		String balanceStr = JOptionPane.showInputDialog("출금 액 : ");
 		int balance = Integer.parseInt(balanceStr);
+	}
+	
+	private void performedTransactionInquire() {
+		TransactionInquirePanel transactionInquirePanel = new TransactionInquirePanel();
+		transactionInquirePanel.setSuperFrame(superFrame);
+		
+		superFrame.setNowPanel(transactionInquirePanel);
+		superFrame.getContentPane().removeAll();
+		superFrame.getContentPane().add(transactionInquirePanel);
+		superFrame.revalidate();
+		superFrame.repaint();
+	}
+	
+	private void performedTransfer() {
+		TransferDialog transferDialog = new TransferDialog();
+		transferDialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+		transferDialog.setVisible(true);
+
+	}
+	
+	public void setSuperFrame(TransactionFrame frame) {
+		this.superFrame = frame;
 	}
 }

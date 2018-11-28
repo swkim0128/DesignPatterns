@@ -3,6 +3,7 @@ package org.kitsoft.designpatterns.mvc.onlinebanking;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -17,7 +18,7 @@ import java.awt.event.ActionEvent;
 public class LoginPanel extends JPanel {
 	private JFrame superFrame;
 	private JTextField idTextField;
-	private JTextField pwTextField;
+	private JPasswordField pwTextField;
 
 	/**
 	 * Create the panel.
@@ -44,7 +45,7 @@ public class LoginPanel extends JPanel {
 		textFieldPanel.add(idTextField);
 		idTextField.setColumns(10);
 		
-		pwTextField = new JTextField();
+		pwTextField = new JPasswordField();
 		textFieldPanel.add(pwTextField);
 		pwTextField.setColumns(10);
 		

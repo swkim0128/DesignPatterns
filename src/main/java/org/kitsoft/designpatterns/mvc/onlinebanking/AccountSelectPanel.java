@@ -35,6 +35,11 @@ public class AccountSelectPanel extends JPanel {
 		panel.add(accountSelectButton);
 		
 		JButton accountCreateButton = new JButton("계좌 생성");
+		accountCreateButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				moveCreatePanel();
+			}
+		});
 		panel.add(accountCreateButton);
 	}
 	
@@ -49,6 +54,17 @@ public class AccountSelectPanel extends JPanel {
 		superFrame.setNowPanel(accountSelectedPanel);
 		superFrame.getContentPane().removeAll();
 		superFrame.getContentPane().add(accountSelectedPanel);
+		superFrame.revalidate();
+		superFrame.repaint();
+	}
+	
+	public void moveCreatePanel() {
+		AccountCreatePanel accountCreatePanel = new AccountCreatePanel();
+		accountCreatePanel.setSuperFrame(superFrame);
+		
+		superFrame.setNowPanel(accountCreatePanel);
+		superFrame.getContentPane().removeAll();
+		superFrame.getContentPane().add(accountCreatePanel);
 		superFrame.revalidate();
 		superFrame.repaint();
 	}

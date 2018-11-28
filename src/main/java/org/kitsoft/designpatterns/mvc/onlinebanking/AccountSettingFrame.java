@@ -42,6 +42,9 @@ public class AccountSettingFrame extends JFrame {
 		if(nowPanel instanceof AccountSelectedPanel) {
 			((AccountSelectedPanel) nowPanel).movePanel();
 		}
+		else if(nowPanel instanceof AccountCreatePanel) {
+			((AccountCreatePanel) nowPanel).moveSelectPanel();
+		}
 	}
 	public void setNowPanel(JPanel panel) {
 		if(panel instanceof AccountSelectedPanel) {
@@ -49,6 +52,9 @@ public class AccountSettingFrame extends JFrame {
 		}
 		else if(panel instanceof AccountSelectPanel) {
 			menu.setEnabledBackMenuItem(false);
+		}
+		else if(panel instanceof AccountCreatePanel) {
+			menu.setEnabledBackMenuItem(true);
 		}
 		this.nowPanel = panel;
 	}

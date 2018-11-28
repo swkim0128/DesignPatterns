@@ -20,6 +20,8 @@ public class TransactionFrame extends JFrame {
 	private MenuBar menu;
 	private TransactionPanel transactionPanel;
 	
+	private JPanel nowPanel;
+	
 	/**
 	 * Create the frame.
 	 */
@@ -37,12 +39,31 @@ public class TransactionFrame extends JFrame {
 		this.setJMenuBar(menu);
 
 		transactionPanel = new TransactionPanel();
+		transactionPanel.setSuperFrame(this);
 		contentPane.add(transactionPanel);
+		
+		nowPanel = transactionPanel;
 	}
 
-	public void backMoveAccountFrame() {
-		AccountSettingFrame accountSettingFrame = new AccountSettingFrame();
-		accountSettingFrame.setVisible(true);
-		this.setVisible(false);
+	public void moveBack() {
+		if (nowPanel instanceof TransactionPanel) {
+			AccountSettingFrame accountSettingFrame = new AccountSettingFrame();
+			accountSettingFrame.setVisible(true);
+			this.setVisible(false);
+		}
+		else if(nowPanel instanceof TransactionInquirePanel) {
+			TransactionPanel transactionPanel = new TransactionPanel();
+			transactionPanel.setSuperFrame(this);
+			
+			setNowPanel(transactionPanel);
+			getContentPane().removeAll();
+			getContentPane().add(transactionPanel);
+			revalidate();
+			repaint();
+		}
+	}
+	
+	public void setNowPanel(JPanel panel) {
+		this.nowPanel = panel;
 	}
 }

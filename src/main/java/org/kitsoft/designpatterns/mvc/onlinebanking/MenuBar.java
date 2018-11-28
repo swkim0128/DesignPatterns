@@ -52,7 +52,7 @@ public class MenuBar extends JMenuBar {
 			((AccountSettingFrame) nowFrame).backPanel();
 		}
 		else if(nowFrame instanceof TransactionFrame) {
-			((TransactionFrame) nowFrame).backMoveAccountFrame();
+			((TransactionFrame) nowFrame).moveBack();
 		}
 	}
 	
